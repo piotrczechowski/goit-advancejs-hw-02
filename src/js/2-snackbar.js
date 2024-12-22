@@ -1,6 +1,6 @@
-// Import iziToast library and styles
-import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+// // Import iziToast library and styles
+// import iziToast from "izitoast";
+// import "izitoast/dist/css/iziToast.min.css";
 
 // Get references to form and inputs
 const form = document.querySelector(".form");
