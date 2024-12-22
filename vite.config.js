@@ -1,18 +1,9 @@
 import { defineConfig } from 'vite';
-import ghPages from 'vite-plugin-gh-pages';
 
 export default defineConfig({
-  plugins: [ghPages()],
-  base: 'https://github.com/piotrczechowski/goit-advancejs-hw-02', 
-
+  base: '/goit-advancejs-hw-02/', // Replace with your GitHub repository name
   build: {
-    outDir: 'dist', // Directory where the build files are generated
-    assetsDir: 'assets', // Directory for static assets
-    rollupOptions: {
-      input: {
-        main: 'index.html', // Entry point of the application
-      },
-    },
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
-
 });
