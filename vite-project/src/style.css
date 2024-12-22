@@ -24,15 +24,20 @@ a:hover {
 
 body {
   margin: 0;
+  justify-content: center;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-direction: column;
+  
+
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  
 }
 
 #app {
@@ -73,6 +78,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-top: 10px;
 }
 button:hover {
   border-color: #646cff;
