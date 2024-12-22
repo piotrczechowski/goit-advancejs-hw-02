@@ -10,5 +10,11 @@
   },
   "devDependencies": {
     "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "izitoast": "^1.4.0"
   }
+  
+  
 }
